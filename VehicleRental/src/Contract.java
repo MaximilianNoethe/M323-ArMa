@@ -5,5 +5,7 @@ public record Contract(
     LocalDate endDate, 
     String contractModalities, 
     Person person, 
-    Vehicle vehicle
+    Vehicle vehicle,
+    boolean documentRequestSent,
+    boolean documentsSubmitted
 ) {}
