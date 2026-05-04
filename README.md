@@ -131,22 +131,3 @@ Das Frontend zeigt:
 - verständliche Fehlermeldungen
 
 Für die Präsentation kann man gut zeigen, dass die UI nur Eingaben sammelt und die eigentliche Fachlogik in `RentalLogic` liegt.
-
-## 8. Optional: Git
-
-Im Repository gibt es bereits mehrere thematische Commits. Das kann mit folgendem Befehl gezeigt werden:
-
-```bash
-cd VehicleRental
-git log --oneline
-```
-
-Für die volle optionale Punktzahl sollten die aktuellen Code-Änderungen vor der Abgabe nochmals mit einer sinnvollen Commit-Message committet werden.
-
-Beispiel für die Code-Änderungen im `VehicleRental`-Repository:
-
-```bash
-cd VehicleRental
-git add src .gitignore
-git commit -m "refactor: polish vehicle rental app and grading criteria"
-```
