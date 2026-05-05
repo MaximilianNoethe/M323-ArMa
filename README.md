@@ -8,6 +8,22 @@ javac --enable-preview --release 21 src/*.java
 java --enable-preview -cp src Main
 ```
 
+## Unit Tests starten
+
+Die Tests sind normale JUnit-5-Tests. Sie zeigen einzelne wichtige Pure Functions aus `RentalLogic`.
+
+```bash
+cd VehicleRental
+mvn test
+```
+
+Wenn alles funktioniert, zeigt Maven ungefähr diese Zusammenfassung:
+
+```text
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+BUILD SUCCESS
+```
+
 Die Anwendung ist eine Java-Swing-Desktop-App. In der App kann man:
 
 - ein Vehicle auswählen
