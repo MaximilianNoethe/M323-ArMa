@@ -19,10 +19,8 @@ mvn test
 
 Wenn alles funktioniert, zeigt Maven ungefähr diese Zusammenfassung:
 
-```text
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
-BUILD SUCCESS
-```
+<img width="1412" height="1182" alt="image" src="https://github.com/user-attachments/assets/64312fa8-b3f5-4f81-9b19-6cc287dac825" />
+
 
 Die Anwendung ist eine Java-Swing-Desktop-App. In der App kann man:
 
